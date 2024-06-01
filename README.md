@@ -1,7 +1,9 @@
 # Prof Jim Assignment
 
-Video - Link
-Brief overview of each component and how it works:
+### [Video](https://www.loom.com/share/f7e70e45f7424a3ca37936e681ba9ec5?sid=07d3fbd2-ab48-4d98-bb69-1aea3a9629bf) 
+
+
+## Brief overview of each component and how it works:
 
 ### App.tsx
 - Sets up the router and routes for the application.
