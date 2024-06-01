@@ -1,0 +1,37 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px; /* Ensure card takes full height */
+  }
+  
+  .card-header {
+    height: 60px; /* Fixed height for the header part */
+    overflow: hidden; /* Hide overflowing text */
+  }
+  
+  .card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show only two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Ensure text wraps within lines */
+  }
+  
+  .card-content {
+    flex-grow: 1;
+  }
+  
+  .card-actions {
+    justify-content: space-between;
+  }
+  
+  .card-media {
+    object-fit: cover; /* Ensure the image covers the space without stretching */
+  }
+  
+  .expanded-details {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's on top */
+    background-color: white; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    
+  }
+  
+  .navbar-username {
+    flex-grow: 1;
+  }
+  .app-bar-container {
+    padding-bottom: 20;
+  }
+  .search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-right: 16px;
+    margin-left: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    padding: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputRoot {
+    color: inherit;
+    flex-grow: 1;
+  }
+  
+  .inputInput {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px); /* Adjust for the icon size */
+    transition: width 300ms;
+    width: 100%;
+  }
+  
